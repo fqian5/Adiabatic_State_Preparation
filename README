@@ -1,0 +1,24 @@
+1_FCIDUMP: generating CAS(14e,12o) Hamiltonian of Fe2S2 model
+
+		1_FCIDUMP_final: generating FCIDUMP for final Hamiltonian
+    		python fcidump_final.py
+
+		2_FCIDUMP_initial_meanfield: generating FCIDUMP for mean-field initial Hamiltonian
+    		python fcidump_initial_MF.py
+
+		3_FCIDUMP_initial_Dyall: generating FCIDUMP for interacting initial Hamiltonian
+    		to be added	
+
+
+2_T_ASPest: computing ASP-time estimates (T^est_ASP)
+		for interpol in {0..10000..50}
+		do 
+				python fci_T_ASPest.py ${interpol}
+		done
+    python plot.py 
+
+
+3_T_ASP:    performing the time-dependent ASP simulation for ASP-time (T_ASP)
+		python asp_fci.py 
+
+
