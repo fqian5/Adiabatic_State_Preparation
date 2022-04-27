@@ -50,7 +50,7 @@ mol.build()
 # SCF
 #==================================================================
 mf = scf.sfx2c(scf.RKS(mol))
-mf.chkfile = 'hs_bp86.chk'
+mf.chkfile = './output/hs_bp86.chk'
 mf.max_cycle = 500
 mf.conv_tol = 1.e-4
 mf.xc = 'b88,p86' 
