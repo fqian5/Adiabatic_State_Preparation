@@ -7,7 +7,7 @@
     		python fcidump_initial_MF.py
 
 		3_FCIDUMP_initial_Dyall: generating FCIDUMP for interacting initial Hamiltonian
-    		to be added	
+    	 	python fcidump_initial_Dyall.py ${the number of interacting orbitals}	
 
 
 2_T_ASPest: computing ASP-time estimates (T^est_ASP)
