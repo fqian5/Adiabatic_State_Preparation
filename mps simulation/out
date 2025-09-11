@@ -1,0 +1,18 @@
+Fe2S2 Ground State Eigenvalue Solver
+========================================
+Loading Hamiltonian from ../1_FCIDUMP/1_FCIDUMP_final/output/FCIDUMP10000
+System: 12 orbitals, 14 electrons, MS=0.0
+Core energy: -5063.5558273474
+Building Hamiltonian matrix: 627264 determinants
+Alpha strings: 792, Beta strings: 792
+Solving eigenvalue problem for 3 roots...
+Converged eigenvalues:
+  State 0: -5092.5645394951 Hartree
+  State 1: -5092.5633641558 Hartree
+  State 2: -5092.5607524689 Hartree
+Saved energies to output/ground_state_energies.npy
+Saved eigenvectors to output/ground_state_vectors.npy
+Saved system info to output/system_info.npy
+
+Ground state calculation completed successfully!
+Ground state energy: -5092.5645394951 Hartree

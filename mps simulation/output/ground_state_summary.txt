@@ -1,0 +1,10 @@
+Fe2S2 Ground State Calculation Results
+========================================
+
+System: 12 orbitals, 14 electrons
+Ground state energy: -5092.5645394951 Hartree
+Ground state energy: -138575.810710 eV
+
+Excited state energies:
+  State 1: -5092.5633641558 Hartree (0.031983 eV gap)
+  State 2: -5092.5607524689 Hartree (0.103050 eV gap)

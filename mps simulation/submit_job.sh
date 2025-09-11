@@ -8,6 +8,6 @@
 #SBATCH --mem=500000 # memory in Mb
 #SBATCH -o outputfile.out # send stdout to outfile
 #SBATCH -e errfile.out  # send stderr to errfile
-module load anaconda/2024.06-py312
-source activate /cluster/tufts/lovelab/fqian03/condaenv/symmer
+module load miniforge/24.11.2-py312
+source activate /cluster/tufts/lovelab/fqian03/condaenv/fe2s2
 python ground_state_solver.py 1>out 2>error
